@@ -30,4 +30,4 @@ O dashboard interativo foi elaborado para analisar os dados mais relevantes da e
 * Visão das cidades cadastradas 🏙️
 * Visão dos tipos de culinária 🍲
 
-🔎 Para visualizar o dashboard clique [aqui](https://cury-company-project.streamlit.app/).
+🔎 Para visualizar o dashboard clique [aqui](https://zomato-debora-freitas.streamlit.app/).
