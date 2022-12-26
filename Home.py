@@ -14,9 +14,10 @@ df1 = df.copy()
 st.set_page_config(page_title= 'Zomato',page_icon= '📊',layout= 'wide' )
 
 
-# Criando título e centralizando __________________________________________________________________________________________________________
+# Adicionando imagem __________________________________________________________________________________________________________
 
-st.markdown("<h1 style='text-align: center; color: red;'>Zomato</h1>", unsafe_allow_html=True)
+images = Image.open('zomato1.png')
+st.image(images)
 
 
 # Centralizar e adicionar imagem __________________________________________________________________________________________________________
@@ -117,7 +118,7 @@ with st.container():
         
 #tabs
         
-tab1, tab2 = st.tabs(['Visão geográfica', 'Categorias de restaurantes'])
+tab1, tab2 = st.tabs(['Visão geográfica', 'Categorias de restaurante'])
 
 
 # TAB 1 Mapa ____________________________________________________________________________________________________________________________
